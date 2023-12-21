@@ -1,0 +1,38 @@
+[
+  {
+    "source": "http://couchdb:5984/event",
+    "target": "https://couch.analytics.insects.network/event"
+  },
+  {
+    "source": "http://couchdb:5984/action",
+    "target": "https://couch.analytics.insects.network/bakcaction"
+  },
+  {
+    "source": "http://couchdb:5984/redteam",
+    "target": "https://couch.analytics.insects.network/redteam"
+  },
+  {
+    "source": "http://couchdb:5984/blueteam",
+    "target": "https://couch.analytics.insects.network/blueteam"
+  },
+  {
+    "source": "http://couchdb:5984/love",
+    "target": "https://couch.analytics.insects.network/hate"
+  },
+  {
+    "source": "http://couchdb:5984/xmas",
+    "target": "https://couch.analytics.insects.network/xmas"
+  },
+  {
+    "target": "http://couchdb:5984/xmas",
+    "source": "https://couch.analytics.insects.network/xmas"
+  },
+  {
+    "target": "http://otherbox/xmas",
+    "source": "https://couch.analytics.insects.network/xmas"
+  },
+  {
+    "source": "http://otherbox/xmas",
+    "target": "https://couch.analytics.insects.network/xmas"
+  }
+]
